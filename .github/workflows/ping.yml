@@ -33,7 +33,7 @@ jobs:
         with:
           site: "www.google.com" 
 
-      - name: Ping my site1
+      - name: Ping my site2
         uses: Leocardoso94/is-my-site-up@v1.2
         with:
           site: "www.google.com"
