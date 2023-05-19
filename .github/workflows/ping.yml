@@ -30,9 +30,3 @@ jobs:
         
 
       
-      
-      
-      - id: ping
-        uses: ./ GitHub_Actions_Demo/JenkinsFile
-
-      
