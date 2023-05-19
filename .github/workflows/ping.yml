@@ -21,11 +21,12 @@ jobs:
     steps:
     
       - uses: actions/checkout@v3
-      - uses: ./
-        with:
-          site: ./
+      
+        
       - name: Ping my site
         uses: Leocardoso94/is-my-site-up@v1.2
+        with:
+          site: "www.geeksforgeeks.org"
         
 
       
