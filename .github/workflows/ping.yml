@@ -26,20 +26,15 @@ jobs:
       - name: Ping my site
         uses: Leocardoso94/is-my-site-up@v1.2
         with:
-          site: " www.geeksforgeeks.org"
+          site: | 
+            www.geeksforgeeks.org
+            www.google.com
+            www.mail.google.com
+            
+            
+                  
           
-      - name: Ping my site1
-        uses: Leocardoso94/is-my-site-up@v1.2
-        with:
-          site: "www.google.com"
-          
-      - name: Ping my site2
-        uses: Leocardoso94/is-my-site-up@v1.2
-        with:
-          site: "www.mail.google.com"
-          
-
-          
+      
         
 
       
